@@ -1,7 +1,7 @@
+"""Test Process"""
 import datetime
 from os import getenv
 
-# pylint: disable=missing-module-docstring
 # pylint: disable=f-string-without-interpolation
 def test_context_variables_environment(client):
     """This test checks if the environment is printed"""
