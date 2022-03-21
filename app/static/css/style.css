@@ -1,5 +1,5 @@
 body {
-font-size: 200%;
+font-size: 100%;
 }
 
 * {box-sizing: border-box}
@@ -28,8 +28,8 @@ hr {
 button {
   background-color: #04AA6D;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 7px 10px;
+  margin: 4px 0;
   border: none;
   cursor: pointer;
   width: 100%;
@@ -42,19 +42,19 @@ button:hover {
 
 /* Extra styles for the cancel button */
 .cancelbtn {
-  padding: 14px 20px;
+  padding: 7px 10px;
   background-color: #f44336;
 }
 
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
   float: left;
-  width: 50%;
+  width: 100%;
 }
 
 /* Add padding to container elements */
 .container {
-  padding: 16px;
+  padding: 8px;
 }
 
 /* Clear floats */
