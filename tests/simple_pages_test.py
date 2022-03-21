@@ -46,6 +46,12 @@ def test_request_page4(client):
     assert response.status_code == 200
     assert b"Page 4" in response.data
 
+def test_request_signup(client):
+    """This makes the index page"""
+    response = client.get("/page6")
+    assert response.status_code == 200
+    assert b"Sign up" in response.data
+
 def test_request_page_not_found(client):
     """This makes the index page"""
     response = client.get("/page5")
