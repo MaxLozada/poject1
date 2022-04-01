@@ -9,9 +9,8 @@
 
 * [Developmental Deployment](https://mrldev.herokuapp.com/)
 
-Finalizing functions and looks.
+Finalizing functions.
 
-Running Locally
 To Build with docker compose: docker compose up --build
 To run tests, Lint, and Coverage report use this command: pytest --pylint --cov
 .pylintrc is the config for pylint, .coveragerc is the config for coverage and setup.py is a config file for pytest
